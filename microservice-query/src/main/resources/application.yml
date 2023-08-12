@@ -1,0 +1,9 @@
+server:
+    port: 8081
+spring:
+    data:
+        mongodb:
+            database: acme-cqrs-query
+            uri: mongodb://root:root@localhost:30001
+
+

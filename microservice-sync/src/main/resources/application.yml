@@ -1,0 +1,13 @@
+server:
+    port: 8082
+spring:
+    data:
+        mongodb:
+            database: acme-cqrs-query
+            uri: mongodb://root:root@localhost:30001
+    kafka:
+        bootstrap-servers: localhost:9092
+        consumer:
+            group-id: test-consumer-group
+
+
